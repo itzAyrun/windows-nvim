@@ -6,7 +6,7 @@ This should also work on linux but I haven't tested this yet so I can't say that
 
 ## Plugins
 
-- Autocompletion using [coc.nvim](https://github.com/neoclide/coc.nvim)
+- Autocompletion using [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
 - Plugin Manager( [vim-plug](https://github.com/junegunn/vim-plug) )
 
