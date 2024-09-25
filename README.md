@@ -6,18 +6,20 @@ This should also work on linux but I haven't tested this yet so I can't say that
 
 ## Plugins
 
-- Autocompletion using [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) Code Autocompletion
 
-- Plugin Manager( [vim-plug](https://github.com/junegunn/vim-plug) )
+- [vim-plug](https://github.com/junegunn/vim-plug) Plugin Manager
 
-- Auto complete bracket pairs, strings, curly braces, e.t.c., using [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs) Autocompletion for brackets, quotes, e.t.c
 
-- [gruvbox-material](https://github.com/sainnhe/gruvbox-material) color scheme
+- [neoprime](https://github.com/cdmill/neomodern.nvim) Color Scheme
 
-- Discord Presence For Neovim using [cord.nvim](https://github.com/vyfor/cord.nvim)
+- [cord.nvim](https://github.com/vyfor/cord.nvim) Neovim Discord Presence
 
-- Statusline for Neovim with [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) Neovim Statusline
 
-- File Browsing, File Search, Grep, e.t.c., using [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) and it's plugin extension [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) File search, live grep
 
-- Syntax Highlighting using [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) File browser
+
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) Syntax Highlighting, indenting, e.t.c
