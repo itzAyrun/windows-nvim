@@ -4,13 +4,20 @@ vim.opt.background = "dark"
 -- Enable true color support
 vim.opt.termguicolors = true
 
--- Gruvbox colorscheme settings
-vim.cmd([[
-	let g:gruvbox_material_better_performance = 1
-	let g:gruvbox_material_transparent_background = 1
-]])
+-- neomodern colorscheme settings
+require('neomodern').setup({
+	style = "roseprime",
+	transparent = true,
+	term_colors = true,
+	ui = {
+		colored_doctrings = true,
+	},
+	telescope = "borderless",
+	lualine = {
+		bold = true,
+		plain = false,
+	},
+})
 
--- Set colorscheme to Gruvbox
-vim.cmd('colorscheme gruvbox-material')
-
-
+-- Set colorscheme to neomodern
+require('neomodern').load()
