@@ -3,7 +3,7 @@ require("Ayrun.remap")
 
 -- Line numbering settings
 vim.opt.number = true
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
 
 -- Indentation settings
 vim.opt.autoindent = true
