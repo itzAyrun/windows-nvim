@@ -10,6 +10,7 @@ require('telescope').setup({
 	extensions = {
 		file_browser = {
 			hijack_netrw = true,
+			initial_mode = "normal",
 			sorting_strategy = "ascending",
 			display_stat = { date = true, size = true },
 		},
