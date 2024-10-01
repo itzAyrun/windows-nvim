@@ -31,5 +31,7 @@ vim.cmd ([[
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   " For previewing markdown files live
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+  " For generating .gitignore files
+  Plug 'wintermute-cell/gitignore.nvim'
   call plug#end()
 ]])
