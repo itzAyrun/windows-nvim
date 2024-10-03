@@ -35,5 +35,7 @@ vim.cmd ([[
   Plug 'wintermute-cell/gitignore.nvim'
   " For generating conventional commits
   Plug 'olacin/telescope-cc.nvim'
+  " Git support inside neovim
+  Plug 'tpope/vim-fugitive'
   call plug#end()
 ]])
