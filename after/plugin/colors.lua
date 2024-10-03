@@ -9,6 +9,10 @@ require('neomodern').setup({
 	style = "roseprime",
 	transparent = true,
 	term_colors = true,
+	code_style = {
+		comments = "none",
+		headings = "bold",  -- markdown headings
+	},
 	ui = {
 		colored_doctrings = true,
 	},
