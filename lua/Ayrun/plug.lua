@@ -33,5 +33,7 @@ vim.cmd ([[
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
   " For generating .gitignore files
   Plug 'wintermute-cell/gitignore.nvim'
+  " For generating conventional commits
+  Plug 'olacin/telescope-cc.nvim'
   call plug#end()
 ]])
