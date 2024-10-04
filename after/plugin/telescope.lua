@@ -2,7 +2,7 @@
 vim.keymap.set("n", "<leader>q", ":Telescope file_browser<CR>")
 
 -- Telescope conventional commits mapping
-vim.api.nvim_set_keymap('n', '<leader>p', '<cmd>Telescope conventional_commits<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>c', '<cmd>Telescope conventional_commits<cr>', { noremap = true, silent = true })
 
 -- Telescope mappings
 vim.api.nvim_set_keymap('n', '<leader>f', '<cmd>Telescope find_files<cr>', { noremap = true, silent = true })

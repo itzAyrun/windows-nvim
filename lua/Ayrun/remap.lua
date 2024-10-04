@@ -2,4 +2,4 @@
 vim.g.mapleader = " "
 
 -- Clear search highlight
-vim.api.nvim_set_keymap('n', '<leader>c', ':nohlsearch<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>a', ':nohlsearch<CR>', { noremap = true, silent = true })
