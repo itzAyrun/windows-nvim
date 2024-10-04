@@ -12,7 +12,7 @@ vim.cmd ([[
   Plug 'L3MON4D3/LuaSnip'
   Plug 'saadparwaiz1/cmp_luasnip'
   " Colorscheme
-  Plug 'cdmill/neomodern.nvim'
+  Plug 'sainnhe/gruvbox-material'
   " Discord Rich Presence
   Plug 'vyfor/cord.nvim', { 'do': './build' }
   Plug 'nvim-lua/plenary.nvim'
