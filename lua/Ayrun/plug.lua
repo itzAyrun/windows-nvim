@@ -37,5 +37,7 @@ vim.cmd ([[
   Plug 'olacin/telescope-cc.nvim'
   " Git support inside neovim
   Plug 'tpope/vim-fugitive'
+  " Go formatter plugin
+  Plug 'darrikonn/vim-gofmt', { 'do': ':GoUpdateBinaries' }
   call plug#end()
 ]])
