@@ -7,7 +7,8 @@ require('nvim-treesitter.configs').setup({
 		"query",
 		"markdown",
 		"markdown_inline",
-		"python"
+		"python",
+		"go",
 	},
 	sync_install = false,
 	auto_install = true,
@@ -16,7 +17,7 @@ require('nvim-treesitter.configs').setup({
 	},
 	highlight = {
 		enable = true,
-		additional_vim_regex_highlighting = { 'ruby', 'markdown', 'python' },
+		additional_vim_regex_highlighting = { 'ruby', 'markdown', 'python', 'go' },
 		disable = {
 			"c",
 			"rust",
