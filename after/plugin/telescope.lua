@@ -1,5 +1,5 @@
 -- Telescope Browser mappings
-vim.keymap.set("n", "<leader>q", ":Telescope file_browser<CR>")
+vim.keymap.set("n", "<leader>e", ":Telescope file_browser<CR>")
 
 -- Telescope conventional commits mapping
 vim.api.nvim_set_keymap('n', '<leader>c', '<cmd>Telescope conventional_commits<cr>', { noremap = true, silent = true })
