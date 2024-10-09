@@ -13,7 +13,7 @@ vim.cmd([[
 	" Disable italic comment
 	let g:gruvbox_material_disable_italic_comment = 1
 	" Enable transparent background
-	let g:gruvbox_material_transparent_background = 1
+	let g:gruvbox_material_transparent_background = 2
 	" Set colorscheme
 	colorscheme gruvbox-material
 ]])
