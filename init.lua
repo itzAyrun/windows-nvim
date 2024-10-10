@@ -5,6 +5,9 @@ require("Ayrun.remap")
 vim.opt.number = true
 vim.opt.relativenumber = false
 
+-- Set locale
+vim.o.ambw = 'single'
+
 -- Indentation settings
 vim.opt.autoindent = true
 vim.opt.tabstop = 4
