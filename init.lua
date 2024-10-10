@@ -20,8 +20,8 @@ vim.opt.mouse = 'a'
 
 -- GUI cursor settings
 vim.cmd([[
-	set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
-	\,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+	set guicursor=n-v-c-i:block-blinkwait700-blinkoff400-blinkon250
+	\,r-cr-o:hor50
 	\,sm:block-blinkwait175-blinkoff150-blinkon175
 ]])
 
