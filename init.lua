@@ -3,7 +3,7 @@ require("Ayrun.remap")
 
 -- Line numbering settings
 vim.opt.number = true
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 
 -- Set locale
 vim.o.ambw = 'single'
@@ -19,7 +19,11 @@ vim.opt.softtabstop = 4
 vim.opt.mouse = 'a'
 
 -- GUI cursor settings
-vim.opt.guicursor = 'n-v-c-i:block'
+vim.cmd([[
+	set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+	\,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+	\,sm:block-blinkwait175-blinkoff150-blinkon175
+]])
 
 -- Use system clipboard
 vim.opt.clipboard:append('unnamedplus')
