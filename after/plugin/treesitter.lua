@@ -17,10 +17,9 @@ require('nvim-treesitter.configs').setup({
 	},
 	highlight = {
 		enable = true,
-		additional_vim_regex_highlighting = { 'ruby', 'markdown', 'python', 'go' },
+		additional_vim_regex_highlighting = { 'ruby', 'markdown', 'python', 'go', 'rust' },
 		disable = {
 			"c",
-			"rust",
 		},
 	},
 	indent = {
